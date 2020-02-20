@@ -1,114 +1,24 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <style>
-        .f1{background: #ffffff;}
-        .f2{background: #ffffff;}
-        .f3{background: #ffffff;}
-        .f3{background: #ffffff;}
-        .f4{background: #ffffff;}
-        .f5{background: #ffffff;}
-        .f6{background: #ffffff;}
-
-        .container3 {
-            font-size: 13px;
-            color: #222222;
-            font-family: arial, sans-serif;
-            width: 100%; 
-            background: #ffffff;
-            display: grid;
-            grid-template-columns: 120px 120px 120px;
-        }
-        .container4 {
-            font-size: 13px;
-            color: #222222;
-            font-family: arial, sans-serif;
-            width: 100%; 
-            background: #ffffff;
-            display: grid;
-            grid-template-columns: 120px 120px 120px;
-        }
-
-
-        a {
-            text-decoration: none;
-            text-decoration-color: #222222;
-        }
-        ul {
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
-            overflow: hidden;
-        }
-        li {
-            float: left;
-        }
-        li a {
-            display: block;
-            padding: 8px;
-            background-color: #ffffff;
-        }
-        input {
-            display: block;
-            text-align: center;
-        }
-        .center-block {         
-            display:block;
-            margin-right: auto;
-            margin-left: auto;
-        }
-        .center-img {
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-        }
-        #cb {
-            text-align: center;
-        }
-        .center-buttons {
-            display: inline-block;
-            margin-left: auto;
-            margin-right: auto;
-        }
-        .center-from-top {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            text-align: center;
-            min-height: 100vh;
-        }
-
-
-
-    </style>
-
-
-   
+    <meta charset="utf-8">
+    <title>Google</title>
+    <link href="styles/main.css" rel="stylesheet">
 </head>
-
 <body>
-
-    <ul>
-        <li><a href="https://about.google/?fg=1&utm_source=google-GB&utm_medium=referral&utm_campaign=hp-header">About</a></li>
-
-        <li><a href="https://store.google.com/GB/?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=en-GB">Store</a></li>
-        
-        <li><a href="https://mail.google.com/mail/?tab=wm&ogbl">Gmail</a></li>
-        
-        <li><a href="https://www.google.co.uk/imghp?hl=en&tab=wi&ogbl">Images</a></li>
-
-        <!-- Add image box-type link here-->
-
-        <button type="submit">Sign in</button>
-
-    </ul>   
-    
-
-    <div class="center-from-top">
+    <header id="header">
+        <ul class="top-left">
+            <li><a href="https://about.google/?fg=1&utm_source=google-GB&utm_medium=referral&utm_campaign=hp-header">About</a></li>
+            <li><a href="https://store.google.com/GB/?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=en-GB">Store</a></li>
+        </ul>   
+        <ul class="top-right">
+            <li><a href="https://mail.google.com/mail/?tab=wm&ogbl">Gmail</a></li>
+            <li><a href="https://www.google.co.uk/imghp?hl=en&tab=wi&ogbl">Images</a></li>
+            <button type="submit">Sign in</button>
+        </ul>
+    </header>
+    <main class="center-from-top">
         <a href><img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" class="center-img"></a>
-
-
         <form>
             <div>
                 <input class="center-block" type="text">
@@ -118,47 +28,25 @@
                 <button class="center-buttons" type="submit">Google search</button>
                 <button class="center-buttons" type="submit">I'm feeling lucky</button>
             </div>
-
         </form>
-    </div>
-
-
-    <p>United Kingdom</p>
-
+    </main>
+        <p>United Kingdom</p>
+    <footer id="footer">
+        <ul class="bottom-left">
+            <li>
+                <a href="https://ads.google.com/intl/en_uk/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Advertising</a>
+                <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=webhp&cd=&cad=rja&uact=8&ved=0ahUKEwiGgI-ak97nAhXFUhUIHTeYBm4QktQCCBU&url=https%3A%2F%2Fwww.google.com%2Fservices%2F%3Fsubid%3Dww-ww-et-g-awa-a-g_hpbfoot1_1!o2%26utm_source%3Dgoogle.com%26utm_medium%3Dreferral%26utm_campaign%3Dgoogle_hpbfooter%26fg%3D1&usg=AOvVaw2SJ4zwRVXKyZr53qG9dm4K">Business</a>
+                <a href="https://google.com/search/howsearchworks/?fg=1">How Search works</a>
+        </ul>
+        <ul class="bottom-right">
+            <li>
+                <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=webhp&cd=&cad=rja&uact=8&ved=0ahUKEwiGgI-ak97nAhXFUhUIHTeYBm4Q8awCCBA&url=https%3A%2F%2Fpolicies.google.com%2Fprivacy%3Ffg%3D1&usg=AOvVaw12z8DS9cd-g0Aokit_wxri">Privacy</a>
+                <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=webhp&cd=&cad=rja&uact=8&ved=0ahUKEwiGgI-ak97nAhXFUhUIHTeYBm4Q8qwCCBE&url=https%3A%2F%2Fpolicies.google.com%2Fterms%3Ffg%3D1&usg=AOvVaw3sEM_N0elgYQx8WbCXpj3n">Terms</a>
+                <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=webhp&cd=&cad=rja&uact=8&ved=0ahUKEwiGgI-ak97nAhXFUhUIHTeYBm4Qzq0CCBI&url=https%3A%2F%2Fwww.google.com%2Fpreferences%3Fhl%3Den&usg=AOvVaw0XvhSqpc_GFt9aG_mRLp1F">Settings</a>
+            </li>
+        </ul>
+    </footer>
 </body>
-
-<footer>
-    <div class="container3">
-
-        <a class="f1" href="https://ads.google.com/intl/en_uk/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Advertising</a>
-
-        <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=webhp&cd=&cad=rja&uact=8&ved=0ahUKEwiGgI-ak97nAhXFUhUIHTeYBm4QktQCCBU&url=https%3A%2F%2Fwww.google.com%2Fservices%2F%3Fsubid%3Dww-ww-et-g-awa-a-g_hpbfoot1_1!o2%26utm_source%3Dgoogle.com%26utm_medium%3Dreferral%26utm_campaign%3Dgoogle_hpbfooter%26fg%3D1&usg=AOvVaw2SJ4zwRVXKyZr53qG9dm4K">Business</a>
-
-        <a href="https://google.com/search/howsearchworks/?fg=1">How Search works</a>
-    
-    </div>
-
-    <div class="container4">
-        <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=webhp&cd=&cad=rja&uact=8&ved=0ahUKEwiGgI-ak97nAhXFUhUIHTeYBm4Q8awCCBA&url=https%3A%2F%2Fpolicies.google.com%2Fprivacy%3Ffg%3D1&usg=AOvVaw12z8DS9cd-g0Aokit_wxri">Privacy</a>
-
-        <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=webhp&cd=&cad=rja&uact=8&ved=0ahUKEwiGgI-ak97nAhXFUhUIHTeYBm4Q8qwCCBE&url=https%3A%2F%2Fpolicies.google.com%2Fterms%3Ffg%3D1&usg=AOvVaw3sEM_N0elgYQx8WbCXpj3n">Terms</a>
-
-        <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=webhp&cd=&cad=rja&uact=8&ved=0ahUKEwiGgI-ak97nAhXFUhUIHTeYBm4Qzq0CCBI&url=https%3A%2F%2Fwww.google.com%2Fpreferences%3Fhl%3Den&usg=AOvVaw0XvhSqpc_GFt9aG_mRLp1F">Settings</a>
-    </div>
-
-
-</footer>
-
-
-
-
-
-
-
-
-
-
-
 </html>
 
 
