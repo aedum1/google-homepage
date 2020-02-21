@@ -51,14 +51,15 @@ main {
     padding-left: 15px;
     text-decoration: none;
 }
-footer {
+.footer {
     position: absolute; 
     visibility: visible;
+    width: 100%;
     bottom: 15px; 
     border-top: 1px solid #dfe1e5;
     background-color: #f2f2f2;
 }
-#bottom-left {
+.bottom-left {
     position: absolute;
     left: 0px; 
     display: inline-block;
@@ -70,15 +71,13 @@ footer {
     line-height: 40px;
     white-space: nowrap;
 }
-#bottom-right {
-
-    
-    right: 15px;
-    color: #5f6368;
-    text-decoration: none;
+.bottom-right {
+    position: absolute;
+    float: right;
     font-family: arial, sans-serif;
     font-size: 13px;
     line-height: 40x;
+    padding-right: 15px;
 }
 #about, #store {
     padding: 0 0 0 18px;
