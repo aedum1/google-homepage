@@ -32,6 +32,7 @@ header {
     padding-right: 15px;
     opacity: 0.75;
     text-decoration: none;
+    text-align: center;
 }
 main {
     position: absolute; 
@@ -57,7 +58,7 @@ footer {
     border-top: 1px solid #dfe1e5;
     background-color: #f2f2f2;
 }
-.bottom-left {
+#bottom-left {
     position: absolute;
     left: 0px; 
     display: inline-block;
@@ -69,14 +70,12 @@ footer {
     line-height: 40px;
     white-space: nowrap;
 }
-.bottom-right {
-    visibility: visible;
-    position: absolute;
+#bottom-right {
+
+    
     right: 15px;
-    display: inline-block;
     color: #5f6368;
     text-decoration: none;
-    padding-left: 27px;
     font-family: arial, sans-serif;
     font-size: 13px;
     line-height: 40x;
@@ -134,11 +133,4 @@ input {
     margin-left: auto;
     margin-right: auto;
 }
-/* #center-from-top {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    min-height: 100vh;
-} */
+
