@@ -81,7 +81,7 @@ main {
 #about, #store {
     padding: 0 0 0 18px;
 }
-#gmail, #images, #user {
+#gmail, #images {
     padding: 0 18px 0 0
 }
 #ads, #business, #how {
@@ -91,8 +91,9 @@ main {
     padding: 0 18px 0 0;
 }
 #user {
-    text-align: center !important;
-    background-color: #4285f4;
+    position: relative;
+    text-align: center;
+    background-color: #1c63d4;
     color: #fff;
     font-weight: bold;
     line-height: 30px;
