@@ -1,7 +1,7 @@
 
 a {
     text-decoration: none;
-    text-decoration-color: #000;
+    color: #5f6368;
     font-family: arial, sans-serif;
 }
 a:hover {
@@ -12,15 +12,15 @@ body {
     color: #222;
 }
 header {
-
+    padding-top: 7px;
+    color: #000 !important;
 }
 .top-left {
     postition: absolute;
     margin: 7px 0 0 10px;
     font-size: 13px;
     display: inline-block;
-    padding-left: 15px;
-    color: #000;
+    padding-left: 0px;
     opacity: 0.75;
     text-decoration: none;
 }
@@ -30,79 +30,115 @@ header {
     font-size: 13px;
     display: inline-block;
     padding-right: 15px;
-    color: #000;
     opacity: 0.75;
     text-decoration: none;
 }
+main {
+    position: absolute; 
+    visibility: visible; 
+    left: 545px; 
+    bottom: 300px; 
+    z-index: 200;
+
+}
+#uk {
+    position: absolute;
+    bottom: 0px;
+    font-size: 15px;
+    font-family: arial, sans-serif;
+    color: rgba(0,0,0,.54);
+    padding-left: 15px;
+    text-decoration: none;
+}
+footer {
+    position: absolute; 
+    visibility: visible;
+    bottom: 15px; 
+    border-top: 1px solid #dfe1e5;
+    background-color: #f2f2f2;
+}
 .bottom-left {
-    float: left;
+    position: absolute;
+    left: 0px; 
+    display: inline-block;
+    color: #5f6368;
+    text-decoration: none;
+    padding-left: 0px;
+    font-family: arial, sans-serif;
+    font-size: 13px;
+    line-height: 40px;
+    white-space: nowrap;
+}
+.bottom-right {
+    visibility: visible;
+    position: absolute;
+    right: 15px;
     display: inline-block;
     color: #5f6368;
     text-decoration: none;
     padding-left: 27px;
     font-family: arial, sans-serif;
     font-size: 13px;
-    line-height: 40px;
-    white-space: nowrap;
-
+    line-height: 40x;
 }
-.about {
-    padding-right: 10px;
+#about, #store {
+    padding: 0 0 0 18px;
 }
-.gmail {
-    padding-right: 10px;
+#gmail, #images, #user {
+    padding: 0 18px 0 0
 }
-.images {
-    padding-right: 10px;
+#ads, #business, #how {
+    padding: 0 0 0 18px;
 }
-.sign {
-    padding-right: 10px;
+#privacy, #terms, #settings {
+    padding: 0 18px 0 0;
 }
-.ads {
-    padding-right: 10px;
-}
-.business {
-    padding-right: 10px;
-}
-.privacy {
-    padding-right: 10px;
-}
-.terms {
-    padding-right: 10px;
-}
-.bottom-right {
-    margin-right: 30px;
-    float: right;
+.user {
     display: inline-block;
-    color: #5f6368;
+    text-align: center;
+}
+#user {
+    background-color: #4285f4;
+    color: #fff;
+    font-weight: bold;
+    line-height: 30px;
+    border: none;
+    border-radius: 2px;
 }
 input {
     display: block;
     text-align: center;
 }
-.center-block {         
-    display:block;
-    margin-right: auto;
-    margin-left: auto;
-}
-.center-img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+#search-box {
+    align-self: center;
+    background-color: transparent;
+    border: none;
+    color: rgba(0,0,0,.87);
+    margin-top: 30px;
+    font-size: 16px;
+    font-family: arial, sans-serif;
+    margin-bottom: 30px;
+    text-align: left;
+    height: 40px;
+    width: 500px;
+    outline: none;
+    border-radius: 25px;
+    border: 1px solid #dfe1e5;
+    
 }
 #cb {
-    text-align: center;
+    text-align: left;
 }
 .center-buttons {
     display: inline-block;
     margin-left: auto;
     margin-right: auto;
 }
-.center-from-top {
+/* #center-from-top {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
     min-height: 100vh;
-}
+} */
