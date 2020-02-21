@@ -37,10 +37,9 @@ header {
 main {
     position: absolute; 
     visibility: visible; 
-    left: 545px; 
-    bottom: 300px; 
+    left: 547px; 
+    bottom: 355px; 
     z-index: 200;
-
 }
 #uk {
     position: absolute;
@@ -73,7 +72,7 @@ main {
 }
 .bottom-right {
     position: absolute;
-    float: right;
+    right: 15px;
     font-family: arial, sans-serif;
     font-size: 13px;
     line-height: 40x;
@@ -91,11 +90,8 @@ main {
 #privacy, #terms, #settings {
     padding: 0 18px 0 0;
 }
-.user {
-    display: inline-block;
-    text-align: center;
-}
 #user {
+    text-align: center !important;
     background-color: #4285f4;
     color: #fff;
     font-weight: bold;
@@ -103,12 +99,10 @@ main {
     border: none;
     border-radius: 2px;
 }
-input {
-    display: block;
-    text-align: center;
-}
 #search-box {
-    align-self: center;
+    position: absolute;
+    left: -130px;
+    top: 87px;
     background-color: transparent;
     border: none;
     color: rgba(0,0,0,.87);
@@ -118,18 +112,28 @@ input {
     margin-bottom: 30px;
     text-align: left;
     height: 40px;
-    width: 500px;
+    width: 600px;
     outline: none;
     border-radius: 25px;
     border: 1px solid #dfe1e5;
-    
 }
 #cb {
+    position: absolute;
     text-align: left;
+    top: 200px;
 }
 .center-buttons {
-    display: inline-block;
+    height: 36px;
+    background-color: #f2f2f2;
+    color: #5F6368;
+    min-width: 54px;
+    padding: 0 16px;
+    font-size: 14px;
+    font-family: arial, sans-serif;
     margin-left: auto;
     margin-right: auto;
+    border: solid 1px #f2f2f2;
+    border-radius: 2px;
+
 }
 
